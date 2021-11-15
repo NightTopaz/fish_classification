@@ -3,14 +3,14 @@ Download the DeepFish data set from https://cloudstor.aarnet.edu.au/plus/s/NfjOb
 
 Place DeepFish dataset in fishclassification -> src -> datasets
 
-1. Train Single Image
+1. Train Single Image using built-in terminal
 
 Localization: python scripts/train_single_image.py -e loc -d ${PATH_TO_DATASET}
 
 Segmentation: python scripts/train_single_image.py -e seg -d ${PATH_TO_DATASET}
 
 
-2. Train and test on the dataset
+2. Train and test on the dataset using built-in terminal
 
 Run the following command 
 
